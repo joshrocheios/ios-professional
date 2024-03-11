@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
   var password: String? {
     return loginView.passwordTextField.text
   }
-
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     style()
